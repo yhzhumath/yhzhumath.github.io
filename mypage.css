@@ -1,0 +1,109 @@
+:root {
+  --posx: 38%; --posy: 0%
+}
+
+
+
+body {
+    background-color: white;
+ background-image: url("nob3.jpg");  
+ background-position: var(--posx)   var(--posy); 
+ 
+ color: black;
+    width: 80%;
+ margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#foot{
+font-size:55%; }
+
+.picop img{
+    position: absolute;
+    left: 10;
+    top: 130;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    opacity: 0.03;
+}
+
+
+
+a:link {
+   color:#0D73BE
+}
+
+a:visited {
+   color:#0D73BE
+}
+
+
+/* -------
+a:link {
+   color:#1d6aa5
+}
+a:visited {
+  color:#1d6aa5
+}
+-------------*/
+
+
+
+h1,h2 {
+text-align: center;
+ font-family: 'Enriqueta', 'Dosis', sans-serif;
+ font-weight:400 ;color: #06385D     ;
+-webkit-transform:scale(1,1.1); /* Safari and Chrome */
+    -moz-transform:scale(1,1.1); /* Firefox */
+    -ms-transform:scale(1,1.1); /* IE 9 */
+    -o-transform:scale(1,1.1); 
+transform:scale(1,1.1); }
+
+
+
+h5 {font-family: 'Enriqueta','Dosis',  sans-serif ; font-size: 1em; font-weight:400 ; 
+color: #06385D  ;}
+
+
+#mainbody{ font-family: 'Open Sans', sans-serif;} 
+
+
+.tocolor{ font-family: 'Enriqueta','Dosis'; font-weight:500 ; color:#06385D  } 
+
+
+
+
+/*-------
+h1{font-family: 'Fredoka One','Dosis',    sans-serif; }
+
+h2{ font-family: 'Fredoka One','Dosis',  sans-serif ; font-weight:600 }
+
+#address{font-family:  'Caveat' , cursive;}
+
+#email{font-family:  'Caveat' , cursive;}    
+ 
+
+
+#tocolor1{ color: #1c5d8e;  } 
+#tocolor2{ color: #1c5d8e;  } 
+#tocolor3{ color: #1c5d8e; }  
+----------------------------------*/
+
+
+
+#quoteContainer{font-family:  'Special Elite', serif;
+}
+
+
+#quoteGenius{font-size: 1.3em;
+	font-weight: 500;
+font-family: 'Special Elite', serif ;
+	text-align: center;
+}
+
+#hidden0{ font-family: 'Open Sans', sans-serif;}
+#hidden{font-family:  'Open Sans', sans-serif;} 
+#hidden2{font-family:  'Open Sans', sans-serif;} 
